@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031D6B65502BA23504950196 /* Pods_IndiawynUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8793C8190DE493049E2700 /* Pods_IndiawynUITests.framework */; };
+		B1922A2620DA2CC10027A46C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A2520DA2CC10027A46C /* AppDelegate.swift */; };
+		B1922A2820DA2CC10027A46C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A2720DA2CC10027A46C /* ViewController.swift */; };
+		B1922A2B20DA2CC10027A46C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1922A2920DA2CC10027A46C /* Main.storyboard */; };
+		B1922A2D20DA2CC10027A46C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1922A2C20DA2CC10027A46C /* Assets.xcassets */; };
+		B1922A3020DA2CC10027A46C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1922A2E20DA2CC10027A46C /* LaunchScreen.storyboard */; };
+		B1922A3B20DA2CC10027A46C /* IndiawynTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A3A20DA2CC10027A46C /* IndiawynTests.swift */; };
+		B1922A4620DA2CC10027A46C /* IndiawynUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A4520DA2CC10027A46C /* IndiawynUITests.swift */; };
+		B1922A5620DA3E8E0027A46C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A5520DA3E8E0027A46C /* Home.swift */; };
+		B1922A5920DA3EDE0027A46C /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A5820DA3EDE0027A46C /* Requester.swift */; };
+		B1922A5B20DA3EF50027A46C /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A5A20DA3EF50027A46C /* Presenter.swift */; };
+		B1922A5D20DA410D0027A46C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A5C20DA410D0027A46C /* Model.swift */; };
+		B1922A6120DA4D500027A46C /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1922A6020DA4D500027A46C /* TableCell.swift */; };
+		BC9BF7B3AE85412633305511 /* Pods_IndiawynTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98BB2C1E751B22F2529DF261 /* Pods_IndiawynTests.framework */; };
+		F9A7B6105DA14557641A1CC0 /* Pods_Indiawyn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02A8C8CC0A3282F66086A33E /* Pods_Indiawyn.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1922A3720DA2CC10027A46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1922A1A20DA2CC00027A46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1922A2120DA2CC00027A46C;
+			remoteInfo = Indiawyn;
+		};
+		B1922A4220DA2CC10027A46C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1922A1A20DA2CC00027A46C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1922A2120DA2CC00027A46C;
+			remoteInfo = Indiawyn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02A8C8CC0A3282F66086A33E /* Pods_Indiawyn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Indiawyn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A42A77F133B8E35F256AA1E /* Pods-IndiawynTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiawynTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndiawynTests/Pods-IndiawynTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F8793C8190DE493049E2700 /* Pods_IndiawynUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiawynUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FBA0D8485EF6859CD6A00F /* Pods-IndiawynUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiawynUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndiawynUITests/Pods-IndiawynUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7B056ED39E0BF999D1C80523 /* Pods-Indiawyn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Indiawyn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Indiawyn/Pods-Indiawyn.debug.xcconfig"; sourceTree = "<group>"; };
+		98BB2C1E751B22F2529DF261 /* Pods_IndiawynTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndiawynTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1922A2220DA2CC00027A46C /* Indiawyn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Indiawyn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1922A2520DA2CC10027A46C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1922A2720DA2CC10027A46C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1922A2A20DA2CC10027A46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1922A2C20DA2CC10027A46C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1922A2F20DA2CC10027A46C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1922A3120DA2CC10027A46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1922A3620DA2CC10027A46C /* IndiawynTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiawynTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1922A3A20DA2CC10027A46C /* IndiawynTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiawynTests.swift; sourceTree = "<group>"; };
+		B1922A3C20DA2CC10027A46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1922A4120DA2CC10027A46C /* IndiawynUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndiawynUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1922A4520DA2CC10027A46C /* IndiawynUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndiawynUITests.swift; sourceTree = "<group>"; };
+		B1922A4720DA2CC10027A46C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1922A5520DA3E8E0027A46C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		B1922A5820DA3EDE0027A46C /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
+		B1922A5A20DA3EF50027A46C /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		B1922A5C20DA410D0027A46C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B1922A6020DA4D500027A46C /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		B47426C32A0C3B920BD03A85 /* Pods-IndiawynUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiawynUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndiawynUITests/Pods-IndiawynUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C66C0E73B33DEC417DE65AF9 /* Pods-IndiawynTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndiawynTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndiawynTests/Pods-IndiawynTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C8CC3D95EC14DE6A913DA8 /* Pods-Indiawyn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Indiawyn.release.xcconfig"; path = "Pods/Target Support Files/Pods-Indiawyn/Pods-Indiawyn.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1922A1F20DA2CC00027A46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A7B6105DA14557641A1CC0 /* Pods_Indiawyn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1922A3320DA2CC10027A46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9BF7B3AE85412633305511 /* Pods_IndiawynTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1922A3E20DA2CC10027A46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031D6B65502BA23504950196 /* Pods_IndiawynUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85AA9A6839F2C3BCEB0D7C1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02A8C8CC0A3282F66086A33E /* Pods_Indiawyn.framework */,
+				98BB2C1E751B22F2529DF261 /* Pods_IndiawynTests.framework */,
+				5F8793C8190DE493049E2700 /* Pods_IndiawynUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1922A1920DA2CC00027A46C = {
+			isa = PBXGroup;
+			children = (
+				B1922A2420DA2CC00027A46C /* Indiawyn */,
+				B1922A3920DA2CC10027A46C /* IndiawynTests */,
+				B1922A4420DA2CC10027A46C /* IndiawynUITests */,
+				B1922A2320DA2CC00027A46C /* Products */,
+				F6047CA1670563B8827B45CA /* Pods */,
+				85AA9A6839F2C3BCEB0D7C1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B1922A2320DA2CC00027A46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1922A2220DA2CC00027A46C /* Indiawyn.app */,
+				B1922A3620DA2CC10027A46C /* IndiawynTests.xctest */,
+				B1922A4120DA2CC10027A46C /* IndiawynUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1922A2420DA2CC00027A46C /* Indiawyn */ = {
+			isa = PBXGroup;
+			children = (
+				B1922A6020DA4D500027A46C /* TableCell.swift */,
+				B1922A5520DA3E8E0027A46C /* Home.swift */,
+				B1922A2520DA2CC10027A46C /* AppDelegate.swift */,
+				B1922A2720DA2CC10027A46C /* ViewController.swift */,
+				B1922A2920DA2CC10027A46C /* Main.storyboard */,
+				B1922A2C20DA2CC10027A46C /* Assets.xcassets */,
+				B1922A2E20DA2CC10027A46C /* LaunchScreen.storyboard */,
+				B1922A3120DA2CC10027A46C /* Info.plist */,
+				B1922A5820DA3EDE0027A46C /* Requester.swift */,
+				B1922A5A20DA3EF50027A46C /* Presenter.swift */,
+				B1922A5C20DA410D0027A46C /* Model.swift */,
+			);
+			path = Indiawyn;
+			sourceTree = "<group>";
+		};
+		B1922A3920DA2CC10027A46C /* IndiawynTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1922A3A20DA2CC10027A46C /* IndiawynTests.swift */,
+				B1922A3C20DA2CC10027A46C /* Info.plist */,
+			);
+			path = IndiawynTests;
+			sourceTree = "<group>";
+		};
+		B1922A4420DA2CC10027A46C /* IndiawynUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1922A4520DA2CC10027A46C /* IndiawynUITests.swift */,
+				B1922A4720DA2CC10027A46C /* Info.plist */,
+			);
+			path = IndiawynUITests;
+			sourceTree = "<group>";
+		};
+		F6047CA1670563B8827B45CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7B056ED39E0BF999D1C80523 /* Pods-Indiawyn.debug.xcconfig */,
+				F7C8CC3D95EC14DE6A913DA8 /* Pods-Indiawyn.release.xcconfig */,
+				C66C0E73B33DEC417DE65AF9 /* Pods-IndiawynTests.debug.xcconfig */,
+				0A42A77F133B8E35F256AA1E /* Pods-IndiawynTests.release.xcconfig */,
+				B47426C32A0C3B920BD03A85 /* Pods-IndiawynUITests.debug.xcconfig */,
+				67FBA0D8485EF6859CD6A00F /* Pods-IndiawynUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1922A2120DA2CC00027A46C /* Indiawyn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1922A4A20DA2CC10027A46C /* Build configuration list for PBXNativeTarget "Indiawyn" */;
+			buildPhases = (
+				0A2E0926EEFED42D2A823C02 /* [CP] Check Pods Manifest.lock */,
+				B1922A1E20DA2CC00027A46C /* Sources */,
+				B1922A1F20DA2CC00027A46C /* Frameworks */,
+				B1922A2020DA2CC00027A46C /* Resources */,
+				042B89A96F56C6FB9CEAD721 /* [CP] Embed Pods Frameworks */,
+				38FB04CCD1AAAEC5ECF2B0A2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Indiawyn;
+			productName = Indiawyn;
+			productReference = B1922A2220DA2CC00027A46C /* Indiawyn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1922A3520DA2CC10027A46C /* IndiawynTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1922A4D20DA2CC10027A46C /* Build configuration list for PBXNativeTarget "IndiawynTests" */;
+			buildPhases = (
+				C3E3669491A607F0DC721E5D /* [CP] Check Pods Manifest.lock */,
+				B1922A3220DA2CC10027A46C /* Sources */,
+				B1922A3320DA2CC10027A46C /* Frameworks */,
+				B1922A3420DA2CC10027A46C /* Resources */,
+				44AED94067332740254126EA /* [CP] Embed Pods Frameworks */,
+				030B9ED29D4FA65FEC52C427 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1922A3820DA2CC10027A46C /* PBXTargetDependency */,
+			);
+			name = IndiawynTests;
+			productName = IndiawynTests;
+			productReference = B1922A3620DA2CC10027A46C /* IndiawynTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1922A4020DA2CC10027A46C /* IndiawynUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1922A5020DA2CC10027A46C /* Build configuration list for PBXNativeTarget "IndiawynUITests" */;
+			buildPhases = (
+				9120444F2BE86088D04A1322 /* [CP] Check Pods Manifest.lock */,
+				B1922A3D20DA2CC10027A46C /* Sources */,
+				B1922A3E20DA2CC10027A46C /* Frameworks */,
+				B1922A3F20DA2CC10027A46C /* Resources */,
+				3996BCEF163E5E63A35E5F7A /* [CP] Embed Pods Frameworks */,
+				C760ACB66F00C7098AFC0A91 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1922A4320DA2CC10027A46C /* PBXTargetDependency */,
+			);
+			name = IndiawynUITests;
+			productName = IndiawynUITests;
+			productReference = B1922A4120DA2CC10027A46C /* IndiawynUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1922A1A20DA2CC00027A46C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = keertika;
+				TargetAttributes = {
+					B1922A2120DA2CC00027A46C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B1922A3520DA2CC10027A46C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1922A2120DA2CC00027A46C;
+					};
+					B1922A4020DA2CC10027A46C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1922A2120DA2CC00027A46C;
+					};
+				};
+			};
+			buildConfigurationList = B1922A1D20DA2CC00027A46C /* Build configuration list for PBXProject "Indiawyn" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1922A1920DA2CC00027A46C;
+			productRefGroup = B1922A2320DA2CC00027A46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1922A2120DA2CC00027A46C /* Indiawyn */,
+				B1922A3520DA2CC10027A46C /* IndiawynTests */,
+				B1922A4020DA2CC10027A46C /* IndiawynUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1922A2020DA2CC00027A46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1922A3020DA2CC10027A46C /* LaunchScreen.storyboard in Resources */,
+				B1922A2D20DA2CC10027A46C /* Assets.xcassets in Resources */,
+				B1922A2B20DA2CC10027A46C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1922A3420DA2CC10027A46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1922A3F20DA2CC10027A46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030B9ED29D4FA65FEC52C427 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiawynTests/Pods-IndiawynTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		042B89A96F56C6FB9CEAD721 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Indiawyn/Pods-Indiawyn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Indiawyn/Pods-Indiawyn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A2E0926EEFED42D2A823C02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Indiawyn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38FB04CCD1AAAEC5ECF2B0A2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Indiawyn/Pods-Indiawyn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3996BCEF163E5E63A35E5F7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiawynUITests/Pods-IndiawynUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44AED94067332740254126EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiawynTests/Pods-IndiawynTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9120444F2BE86088D04A1322 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiawynUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E3669491A607F0DC721E5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndiawynTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C760ACB66F00C7098AFC0A91 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndiawynUITests/Pods-IndiawynUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1922A1E20DA2CC00027A46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1922A5B20DA3EF50027A46C /* Presenter.swift in Sources */,
+				B1922A2820DA2CC10027A46C /* ViewController.swift in Sources */,
+				B1922A5D20DA410D0027A46C /* Model.swift in Sources */,
+				B1922A6120DA4D500027A46C /* TableCell.swift in Sources */,
+				B1922A2620DA2CC10027A46C /* AppDelegate.swift in Sources */,
+				B1922A5620DA3E8E0027A46C /* Home.swift in Sources */,
+				B1922A5920DA3EDE0027A46C /* Requester.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1922A3220DA2CC10027A46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1922A3B20DA2CC10027A46C /* IndiawynTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1922A3D20DA2CC10027A46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1922A4620DA2CC10027A46C /* IndiawynUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1922A3820DA2CC10027A46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1922A2120DA2CC00027A46C /* Indiawyn */;
+			targetProxy = B1922A3720DA2CC10027A46C /* PBXContainerItemProxy */;
+		};
+		B1922A4320DA2CC10027A46C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1922A2120DA2CC00027A46C /* Indiawyn */;
+			targetProxy = B1922A4220DA2CC10027A46C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1922A2920DA2CC10027A46C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1922A2A20DA2CC10027A46C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1922A2E20DA2CC10027A46C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1922A2F20DA2CC10027A46C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1922A4820DA2CC10027A46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1922A4920DA2CC10027A46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1922A4B20DA2CC10027A46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B056ED39E0BF999D1C80523 /* Pods-Indiawyn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Indiawyn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keertika.Indiawyn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1922A4C20DA2CC10027A46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C8CC3D95EC14DE6A913DA8 /* Pods-Indiawyn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Indiawyn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keertika.Indiawyn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1922A4E20DA2CC10027A46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66C0E73B33DEC417DE65AF9 /* Pods-IndiawynTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiawynTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keertika.IndiawynTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indiawyn.app/Indiawyn";
+			};
+			name = Debug;
+		};
+		B1922A4F20DA2CC10027A46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A42A77F133B8E35F256AA1E /* Pods-IndiawynTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiawynTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keertika.IndiawynTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Indiawyn.app/Indiawyn";
+			};
+			name = Release;
+		};
+		B1922A5120DA2CC10027A46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47426C32A0C3B920BD03A85 /* Pods-IndiawynUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiawynUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keertika.IndiawynUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Indiawyn;
+			};
+			name = Debug;
+		};
+		B1922A5220DA2CC10027A46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FBA0D8485EF6859CD6A00F /* Pods-IndiawynUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IndiawynUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = keertika.IndiawynUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Indiawyn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1922A1D20DA2CC00027A46C /* Build configuration list for PBXProject "Indiawyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1922A4820DA2CC10027A46C /* Debug */,
+				B1922A4920DA2CC10027A46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1922A4A20DA2CC10027A46C /* Build configuration list for PBXNativeTarget "Indiawyn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1922A4B20DA2CC10027A46C /* Debug */,
+				B1922A4C20DA2CC10027A46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1922A4D20DA2CC10027A46C /* Build configuration list for PBXNativeTarget "IndiawynTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1922A4E20DA2CC10027A46C /* Debug */,
+				B1922A4F20DA2CC10027A46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1922A5020DA2CC10027A46C /* Build configuration list for PBXNativeTarget "IndiawynUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1922A5120DA2CC10027A46C /* Debug */,
+				B1922A5220DA2CC10027A46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1922A1A20DA2CC00027A46C /* Project object */;
+}

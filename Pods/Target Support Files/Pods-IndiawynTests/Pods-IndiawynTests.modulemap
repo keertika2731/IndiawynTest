@@ -1,0 +1,6 @@
+framework module Pods_IndiawynTests {
+  umbrella header "Pods-IndiawynTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
