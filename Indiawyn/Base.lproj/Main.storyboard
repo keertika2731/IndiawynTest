@@ -46,6 +46,7 @@
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="zxx-3e-ddB" secondAttribute="height" multiplier="195:47" id="HZO-cr-gFF"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <state key="normal" title="Get Started">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>

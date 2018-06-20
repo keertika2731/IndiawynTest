@@ -16,8 +16,10 @@ class ViewController: UIViewController {
     var Data:[Model]?
     override func viewDidLoad() {
         super.viewDidLoad()
-     
-        
+     self.getStarted.layer.shadowColor = UIColor.black.cgColor
+        self.getStarted.layer.shadowOpacity = 0.5
+        self.getStarted.layer.shadowRadius = 2
+        self.getStarted.layer.shadowOffset = CGSize.zero
         // Do any additional setup after loading the view, typically from a nib.
     }
     override func viewWillAppear(_ animated: Bool) {
